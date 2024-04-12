@@ -10,8 +10,6 @@ window : length  6
 defenestrate : length  12
 '''
 
-print("-----------------------------")
-
 object = {'Hans': 'active', 'Éléonore': 'inactive', '景太郎': 'active'}
 for property, value in object.copy().items():
     print(property, ":", value)
@@ -23,8 +21,6 @@ Hans : active
 Éléonore : inactive
 景太郎 : active
 '''
-
-print("-----------------------------")
 
 for i in range(5):
     print("i = ", i)
@@ -39,8 +35,6 @@ i =  3
 i =  4
 '''
 
-print("-----------------------------")
-
 for j in range(2, 5):
     print("j = ", j)
 
@@ -51,8 +45,6 @@ j =  2
 j =  3
 j =  4
 '''
-
-print("-----------------------------")
 
 for n in range(10):
     if n > 5:
@@ -69,8 +61,6 @@ n =  3
 n =  4
 n =  5
 '''
-
-print("-----------------------------")
 
 for m in range(10):
     if m % 2 == 0:

@@ -10,8 +10,6 @@ This is output result
 Hello World!
 '''
 
-print("-----------------------------")
-
 
 def sum(a, b):
     return a + b
@@ -25,8 +23,6 @@ This is output result
 
 Result:  3
 '''
-
-print("-----------------------------")
 
 
 def calculate_grade(score):
@@ -51,8 +47,6 @@ This is output result
 Grade:  A
 '''
 
-print("-----------------------------")
-
 
 def preview_pdf(start_page=1, end_page=100):
     print("Preview from", start_page, "to", end_page)
@@ -72,8 +66,6 @@ Preview from 2 to 5
 Preview from 11 to 15
 '''
 
-print("-----------------------------")
-
 
 def run_command(*args):
     for arg in args:
@@ -91,8 +83,6 @@ Argument:  -c
 Argument:  3
 '''
 
-print("-----------------------------")
-
 
 def print_keyword_arguments(**keywords):
     for key in keywords:
@@ -108,8 +98,6 @@ first_name : Jittagorn
 last_name : Pitakmetagoon
 occupation : Developer
 '''
-
-print("-----------------------------")
 
 
 def lambda_function(n):
