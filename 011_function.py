@@ -112,11 +112,11 @@ occupation : Developer
 print("-----------------------------")
 
 
-def lamda_function(n):
+def lambda_function(n):
     return lambda x: x + n
 
 
-f = lamda_function(10)
+f = lambda_function(10)
 print("f(1): ", f(1))
 print("f(2): ", f(2))
 print("f(3): ", f(3))
